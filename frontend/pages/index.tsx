@@ -52,8 +52,7 @@ export default function HomePage() {
 
       const data = await res.json();
       setRecommendation(data);
-    } catch (err) {
-      // Could add better error handling later
+    } catch {
       alert('Something went wrong. Please try again.');
     }
   };
