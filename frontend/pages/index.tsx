@@ -42,7 +42,7 @@ export default function HomePage() {
     e.preventDefault();
 
     try {
-      const res = await fetch('http://localhost:4000/recommendation', {
+      const res = await fetch('https://life-insurance-mvp-backend.onrender.com/recommendation', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
